@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./assets/js/script.js"></script>
+    <title>Desafío 2 - Condiciones</title>
+</head>
+
+<body>
+    <div class="container">
+            <h3>Requerimiento 1</h3>
+            <img id="imagen1" src="./assets/imgs/imagen1.jpg" alt="imagen1" width="200px">
+        <hr>
+            <h3>Requerimiento 2</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th><p>Puedes llevar hasta 10 stickers en total</p></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th><img src="./assets/imgs/imagen2.png" alt="imagen2"></th>
+                        <th><img src="./assets/imgs/imagen3.png" alt="imagen2"></th>
+                        <th><img src="./assets/imgs/imagen4.png" alt="imagen2"></th>
+                            
+                    </tr>
+                    <tr>
+                        <th><input id="card-1" type="number" min="0" max="10" value="0"></th>
+                        <th><input id="card-2" type="number" min="0" max="10" value="0"></th>
+                        <th><input id="card-3" type="number" min="0" max="10" value="0"></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>
+                            <p id="txt-verificar"></p>
+                            <button id="btn-verificar">Verificar</button>
+                        </th>
+                        <th></th>
+                    </tr>
+                </tbody>
+            </table>
+        <hr>
+            <h3>Requerimiento 3</h3>
+
+                <select name="digito-0" id="digito-0">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select name="digito-1" id="digito-1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select name="digito-2" id="digito-2">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <br>
+                <br>
+            <button id="btn-ingresar">Ingresar</button>
+            <p id="txt-password"></p>
+    </div>
+</body>
+
+</html>
